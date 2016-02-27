@@ -1,0 +1,14 @@
+web:
+  image: wordpress
+  links:
+    - db:mysql
+  expose:
+    - "80"
+  working_dir: /var/www/html
+  volumes:
+    - "/path/in/vm/wp-content:/var/www/html/wp-content"
+
+db:
+  image: mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: WordPressPassword

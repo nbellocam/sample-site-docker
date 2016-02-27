@@ -1,0 +1,9 @@
+web:
+  restart: always
+  build: ./conf/
+  ports:
+    - "80:80"
+  volumes:
+    - /home/nbellocam/dev/nginx/www:/usr/share/nginx/html
+  external_links:
+    - wordpress_web_1:bloghost

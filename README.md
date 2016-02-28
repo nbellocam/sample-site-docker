@@ -6,5 +6,6 @@ The nginx container act as router to the other sites. Additionally, it serves st
 
 You can found more information at my blog [http//blog.nbellocam.me](http//blog.nbellocam.me):
 
-1. [Creating a Docker VM](http://blog.nbellocam.me/2016/02/24/creating-docker-vm-azure-manually/)
+1. [Creating a Docker VM in Azure](http://blog.nbellocam.me/2016/02/24/creating-docker-vm-azure-manually/)
 1. [Creating a WordPress site with docker compose](http://blog.nbellocam.me/2016/02/25/wordpress-docker-container-compose/)
+1. [WordPress plugins for the cloud](http://blog.nbellocam.me/2016/02/27/wordpress-plugins-cloud/)
